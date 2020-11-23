@@ -8,7 +8,7 @@ from scipy import ndimage
 import scipy.misc
 from PIL import Image
 
-from dnn_app_utils_v3 import *
+from utils import *
 
 plt.rcParams['figure.figsize'] = (5.0, 4.0)  # set default size of plots
 plt.rcParams['image.interpolation'] = 'nearest'
